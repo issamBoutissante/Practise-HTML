@@ -18,25 +18,27 @@
       margin-top: 0;
       margin-bottom: 15px;
     }
+    span {
+      background-color: red;
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      text-align: center;
+      color: white;
+      font-size: 28px;
+      margin-right: 5px;
+    }
   </style>
   <body>
     <div style="border: 5px solid black">
       <div style="border: 1px solid black; margin: 1px; padding: 10px">
         <h1>Mes Loisires:</h1>
-        <table style="margin-left: 30px">
-          <tr>
-            <td><p>*</p></td>
-            <td valign="bottom">Sport</td>
-          </tr>
-          <tr>
-            <td><p>*</p></td>
-            <td valign="bottom">Lecture</td>
-          </tr>
-          <tr>
-            <td><p>*</p></td>
-            <td valign="bottom">Voyage</td>
-          </tr>
-        </table>
+        <ul type="none">
+          <li><span>*</span>Sport</li>
+          <li><span>*</span>Lecture</li>
+          <li><span>*</span>Voyage</li>
+        </ul>
       </div>
     </div>
   </body>
